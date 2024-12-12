@@ -14,10 +14,10 @@ BudgetApp is a React Native application designed to help users track their finan
 - A dedicated Transactions screen with a SectionList component.
 - Transactions are grouped by month and sorted with the latest transaction appearing first.
 - Each transaction displays:
-  -- Amount
-  -- Type (Income or Expense)
-  -- Category
-  -- Date
+   Amount
+   Type (Income or Expense)
+   Category
+   Date
 
 > - Interactive Transaction Management
 
