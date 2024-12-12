@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# BudgetApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📝 Description
 
-## Get started
+BudgetApp is a React Native application designed to help users track their financial transactions over various time periods. With a clean and intuitive interface, users can view their spending and income data categorized into daily, weekly, monthly, and yearly views. Additionally, a comprehensive "Transactions" section allows users to review and manage all their transactions in one place.
 
-1. Install dependencies
+> - Daily/Weekly/Monthly/Yearly Views:
 
+- View transactions grouped and sorted by specific time periods.
+- Easily navigate between different time ranges to monitor spending patterns
+
+> - Comprehensive Transactions List:
+
+- A dedicated Transactions screen with a SectionList component.
+- Transactions are grouped by month and sorted with the latest transaction appearing first.
+- Each transaction displays:
+  -- Amount
+  -- Type (Income or Expense)
+  -- Category
+  -- Date
+
+> - Interactive Transaction Management
+
+- Add new transactions with an intuitive form.
+- Remove transactions directly from the Transactions screen using a trash icon for each item.
+
+## Technologies Used
+
+### Frontend
+
+React Native: Framework for building the mobile app.
+
+React Navigation: For managing the navigation between screens, including the Drawer and different tabs.
+
+React Native Paper: For UI components and styling.
+
+Date-FNS: For date manipulation and formatting.
+
+### Backend
+
+JSON Server: Mock server for handling CRUD operations for transactions.
+
+Axios: For HTTP requests to interact with the backend.
+
+State Management
+
+React Context: To manage state for transactions and modals across the app.
+
+## 🔧 Installation
+
+To get started, clone the repository and install the dependencies.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js >= 12
+- npm or yarn
+
+### Steps
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/pjkbsn/BudgetApp.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd repo
+   ```
+3. Install the required dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+## 🚀 Usage
 
+Here’s how you can start using the project. Run the following command to launch it:
+
+4. Start the server:
    ```bash
-    npx expo start
+   npx json-server db.json
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. Open new terminal and run:
+   ```bash
+   npx expo start
+   ```
