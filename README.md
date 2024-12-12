@@ -66,7 +66,7 @@ Ensure you have the following installed:
    ```
 2. Navigate into the project directory:
    ```bash
-   cd repo
+   cd BudgetApp
    ```
 3. Install the required dependencies:
    ```bash
