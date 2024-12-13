@@ -36,11 +36,16 @@ export const TransactionForm = () => {
 
   const { addTransaction } = useTransaction();
 
+  // const {
+  //   data: fetchData,
+  //   loading: fetchLoading,
+  //   error: fetchError,
+  // } = useFetch<any[]>("http://10.0.2.2:3000/categories");
   const {
     data: fetchData,
     loading: fetchLoading,
     error: fetchError,
-  } = useFetch<any[]>("http://10.0.2.2:3000/categories");
+  } = useFetch<any[]>("http://localhost:3000/transactions");
 
   const OPTIONS =
     fetchData?.map((category) => ({
