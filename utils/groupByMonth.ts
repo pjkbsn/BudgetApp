@@ -1,7 +1,7 @@
 import { format, parseISO } from "date-fns";
 
 export const groupByMonth = (transactions: any) => {
-  // Sortera alla transaktioner efter datum (senaste först)
+  // Sortera alla transaktioner efter datum, senaste först
   const sortedTransactions = [...transactions].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );

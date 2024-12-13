@@ -48,6 +48,20 @@
       "amount": 5000,
       "category": "Loan",
       "date": "2020-12-09"
+    },
+    {
+      "id": "d7a5",
+      "type": "Expense",
+      "amount": 5000,
+      "category": "Bills",
+      "date": "2024-12-13"
+    },
+    {
+      "id": "55f6",
+      "type": "Expense",
+      "amount": 2500,
+      "category": "Transport",
+      "date": "2024-12-13"
     }
   ],
   "mockdata": [
