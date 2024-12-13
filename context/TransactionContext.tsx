@@ -18,14 +18,21 @@ const TransactionContext = createContext<TransactionContextType | undefined>(
 );
 
 export const TransactionProvider = ({ children }: { children: ReactNode }) => {
+  // const { data, loading, error, refetch } = useFetch<Transactions[]>(
+  //   "http://10.0.2.2:3000/transactions"
+  // );
   const { data, loading, error, refetch } = useFetch<Transactions[]>(
-    "http://10.0.2.2:3000/transactions"
+    "http://localhost:3000/transactions"
   );
 
-  const { post } = usePost<Transactions>("http://10.0.2.2:3000/transactions");
+  // const { post } = usePost<Transactions>("http://10.0.2.2:3000/transactions");
+  const { post } = usePost<Transactions>("http://localhost:3000/transactions");
 
+  // const { deleteData } = useDelete<Transactions>(
+  //   "http://10.0.2.2:3000/transactions"
+  // );
   const { deleteData } = useDelete<Transactions>(
-    "http://10.0.2.2:3000/transactions"
+    "http://localhost:3000/transactions"
   );
 
   const fetchData = () => {
