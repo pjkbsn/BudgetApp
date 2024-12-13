@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-BudgetApp is a React Native application designed to help users track their financial transactions over various time periods. With a clean and intuitive interface, users can view their spending and income data categorized into daily, weekly, monthly, and yearly views. Additionally, a comprehensive "Transactions" section allows users to review and manage all their transactions in one place.
+BudgetApp is a React Native/Expo application designed to help users track their financial transactions over various time periods. With a clean and intuitive interface, users can view their spending and income data categorized into daily, weekly, monthly, and yearly views. Additionally, a comprehensive "Transactions" section allows users to review and manage all their transactions in one place.
 
 > - Daily/Weekly/Monthly/Yearly Views:
 
@@ -14,10 +14,11 @@ BudgetApp is a React Native application designed to help users track their finan
 - A dedicated Transactions screen with a SectionList component.
 - Transactions are grouped by month and sorted with the latest transaction appearing first.
 - Each transaction displays:
-  -- Amount
-  -- Type (Income or Expense)
-  -- Category
-  -- Date
+
+   - Amount
+   - Type (Income or Expense)
+   - Category
+   - Date
 
 > - Interactive Transaction Management
 
@@ -65,7 +66,7 @@ Ensure you have the following installed:
    ```
 2. Navigate into the project directory:
    ```bash
-   cd repo
+   cd BudgetApp
    ```
 3. Install the required dependencies:
    ```bash
