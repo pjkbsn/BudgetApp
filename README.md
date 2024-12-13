@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-BudgetApp is a React Native application designed to help users track their financial transactions over various time periods. With a clean and intuitive interface, users can view their spending and income data categorized into daily, weekly, monthly, and yearly views. Additionally, a comprehensive "Transactions" section allows users to review and manage all their transactions in one place.
+BudgetApp is a React Native/Expo application designed to help users track their financial transactions over various time periods. With a clean and intuitive interface, users can view their spending and income data categorized into daily, weekly, monthly, and yearly views. Additionally, a comprehensive "Transactions" section allows users to review and manage all their transactions in one place.
 
 > - Daily/Weekly/Monthly/Yearly Views:
 
